@@ -42,14 +42,24 @@ public class otp {
 	public static void userMethod(String input1, long input2, String input3 ) {
 		int n=input1.length();
 		if(n>2) {
-			System.out.println("[ERROR]-- The name of the user is less than 2");
-		
+			System.out.println("test 1 pass");
 		if(t1==11) {
+			System.out.println("test 3 pass");
 			if(input3.equals("Savings")||input3.equals("Current")||input3.equals("Loan")) {
-				System.out.println("string save");
+				System.out.println("test 3 pass");
+				
+			}else {
+				System.out.println("test 3 fails");
+				System.out.println("[ERROR]-- the type you enter is not valid");
 			}
-		}}else {
-			System.out.println("aa");
+			}
+		else {
+			System.out.println("test 2 fails");
+			System.out.println("[ERROR]-- the account number is not equal to 11");
+		}
+		}else {
+			System.out.println("test 1 fails");
+			System.out.println("[ERROR]-- The name of the user is less than 2");
 		}
 		
 		output1= "f";
